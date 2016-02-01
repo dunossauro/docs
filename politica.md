@@ -71,7 +71,7 @@ De acordo com a natureza dos dados trazemos a seguinte classificação:
 Por padrão será adotada o seguinte esquema de realização de backups para os bancos de dados:
 
 1. Backups incrementais locais (denominados diários) todos os dias da semana, realizados a partir das 00:00h., seguidos de outro backup realizado a partir das 12:00h., com uma semana de retenção;
-2. Backups incrementais na nuvem (denominados diários) todos os dias da semana, realizados a partir das 03:00h., com um dia de retenção;
+2. Backups incrementais na nuvem (denominados diários) todos os dias da semana, realizados a partir das 03:00h., com uma semana de retenção;
 4. Backups transicionais (denominados semanais) em todas as quartas-feiras as 06:00h., com retenção até o próximo backup completo.
 3. Backups completos (full – denominados quinzenais) nas primeiras e terceiras segundas-feiras do mês, realizados a partir das __ :00h., com um mês de retenção e realizado por um humano.
 

@@ -9,9 +9,9 @@ Este documento constata as implementações e rotinas de backup feitas por Eduar
 
 As backup consistem em três rotinas:
 
-   1. Backup incremental, local, reaizado a cada 12 horas (06:00h e 18:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
-   2. Backup total, armazenado no Dropbox, realizado diáriamente as 00:00, com sete dias de retenção.
-   3. Backup total, local, reaizado a cada 24 horas (03:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
+1. Backup incremental, local, reaizado a cada 12 horas (06:00h e 18:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
+2. Backup total, armazenado no Dropbox, realizado diáriamente as 00:00, com sete dias de retenção.
+3. Backup total, local, reaizado a cada 24 horas (03:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
 
 ### Rotinas a serem implementadas
 

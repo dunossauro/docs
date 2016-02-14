@@ -15,11 +15,11 @@ As backup consistem em três rotinas:
 
 ### Rotinas a serem implementadas
 
-Embora as rotinas implementadas se mostrem eficientes, uma rotina de armazenamento *out-off-box* deve ser efetuada por um funcionário responsável, a função, que deverá, como a política recomenda, persistir os dados em uma mídia de armazemento externa.
+Embora as rotinas implementadas se mostrem eficientes, uma rotina de armazenamento *out-off-box* deve ser efetuada por um funcionário responsável, a função, que deverá, como a política recomenda, persistir os dados em uma mídia de armaznamento externa.
 
 ## Sobre a implementação
 
-As rotinas foram implementadas usando o SQL Backup Master (Free Version) no Windows Server. O armazemento local foi executado no diretório *Z:/bkp* em conjunto ao armazenamento em *cloud*, Dropbox, usando a API fornecida pelo SQL Backup Master.
+As rotinas foram implementadas usando o SQL Backup Master (Free Version) no Windows Server. O armazenamento local foi executado no diretório *Z:/bkp* em conjunto ao armazenamento em *cloud*, Dropbox, usando a API fornecida pelo SQL Backup Master.
 
 ## Plano de continuidade
 

@@ -9,9 +9,9 @@ Este documento constata as implementações e rotinas de backup feitas por Eduar
 
 As backup consistem em três rotinas:
 
-      1. Backup incremental, local, reaizado a cada 12 horas (06:00h e 18:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
-      2. Backup total, armazenado no Dropbox, realizado diáriamente as 00:00, com sete dias de retenção.
-      3. Backup total, local, reaizado a cada 24 horas (03:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
+   1. Backup incremental, local, reaizado a cada 12 horas (06:00h e 18:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
+   2. Backup total, armazenado no Dropbox, realizado diáriamente as 00:00, com sete dias de retenção.
+   3. Backup total, local, reaizado a cada 24 horas (03:00h) com uma semana de retenção no diretório Z:/bkp. Que só pode ser modificado pelo usuário ServerAdmin
 
 ### Rotinas a serem implementadas
 
@@ -27,4 +27,14 @@ Caso ocorra um crescimento constante de dados, de uma maneira que não seja poss
 
 ## Gestão de riscos e Recuperação de desastres
 
+Essa seção é destinada a riscos encontrados na implementação e a recuperação dos mesmos.
+
+1. A porta de acesso aos dados do banco de dados é a *default*. Caso ocorram futuros problemas, as modificações em todas as aplicações que fazem uso do servidor devem ser alteradas
+2. As políticas de senhas devem ser aplicadas no tempo previsto pela política de segurança, como prevenção a futuros desastres.
+3. Em caso de perda de dados, os backups deve ser restaurados no tempo mínimo contido na cláusula de contratdo do cliente.
+4. Os backups devem ser revisados após o seu armazenamento *out-off-box* e deve estar sempre disponível para recuperação.
+
+      
 ## Considerações finais
+
+Este documento, como conta na primecera seção, foi escrito por Eduardo F. Mendes e deve ser analisádo por Rogério Farah. Quem dará as diretrizes de aprovação.
